@@ -2,6 +2,11 @@
 
 Remove Inline styles and generate HTML and CSS files.
 
+## Installation
+
+```bash
+npm install --save remove-inline-styles
+```
 
 ## Usage
 
