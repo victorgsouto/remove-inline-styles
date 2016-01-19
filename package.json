@@ -1,0 +1,31 @@
+{
+  "name": "remove-inline-styles",
+  "version": "1.0.0",
+  "description": "Remove Inline styles and generate HTML and CSS files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Victor Gustavo Souto",
+    "email": "victorgusta@gmail.com",
+    "url": "https://github.com/victorgsouto"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victorgsouto/remove-inline-styles.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "remove inline styles",
+    "remove styles inline",
+    "css outut",
+    "clearing inline css",
+    "remove all inline css",
+    "remover css inline"
+  ],
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "fs": "0.0.2"
+  }
+}
