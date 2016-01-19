@@ -8,7 +8,7 @@ Remove Inline styles and generate HTML and CSS files.
 ```javascript
 var removeStylesInline = require('remove-css-inline')
 
-removeStylesInline("index2.html")
+removeStylesInline("index.html")
 ```
 
 ## License
