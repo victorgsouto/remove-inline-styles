@@ -17,7 +17,7 @@ function getInlineStyles(html) {
         throw new TypeError('get-inline-styles expected a string')
     }
     var inlinedStyles = [];
-    var removeStyle = $.load(html);
+    var removeStyle = $.load(html, {xmlMode: true});
     
     removeStyle('*[style]').each(function (i, element) {
         inlinedStyles.push({
