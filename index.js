@@ -26,7 +26,7 @@ function getInlineStyles(html) {
         $(element).removeAttr('style').html();
         $(element).addClass('class' + i).html();
     });
-    createNewHTML(removeStyle.html())
+    createNewHTML(removeStyle.html({decodeEntities: false}))
     return inlinedStyles;
 }
 
